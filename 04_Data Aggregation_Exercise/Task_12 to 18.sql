@@ -1,6 +1,7 @@
 CREATE DATABASE IF NOT EXISTS `soft_uni` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `soft_uni`;
 
+/* 12. Employees Minimum Salaries */
 SELECT 
     `department_id`, 
     MIN(`salary`) AS `minimum_salary`
