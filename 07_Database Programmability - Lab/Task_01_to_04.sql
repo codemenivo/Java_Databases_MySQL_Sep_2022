@@ -120,7 +120,7 @@ WHERE (
 
 
 SELECT * FROM `deleted_employees`;  # След изпълнение на DELETE операцията, 
-																	  #  тригерът сработва и автоматично прави запис в таблица `deleted_employees`.
+				    #  тригерът сработва и автоматично прави запис в таблица `deleted_employees`.
 
 DELETE 
 FROM `employees`
