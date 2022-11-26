@@ -110,7 +110,7 @@ BEGIN
 
 END $$
 
-    # За да пробваме тридера трябва да изпълним действие - DELETE
+    # За да пробваме тригера трябва да изпълним действие - DELETE
 SELECT * FROM `employees` AS `e`
 WHERE (
 		SELECT COUNT(*)
